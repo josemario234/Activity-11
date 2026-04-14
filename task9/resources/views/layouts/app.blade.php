@@ -75,7 +75,7 @@
     </main>
 
     <footer>
-        <p>Task9 made by: [Jose Mario Mancillas Ayala] | This are the same menus from Activity 11, Check out the GitHub project.</p>
+        <p>Task9 made by: [Jose Mario Mancillas Ayala] | These are the same menus from Activity 11, Check out the GitHub project.</p>
     </footer>
 </body>
 </html>
