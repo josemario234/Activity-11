@@ -3,5 +3,13 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    $menuSelection= [
+        "Home",
+        "Contacts",
+        "Reports"
+    ];
+    return view('welcome',
+    [
+        "menu" => $menuSelection
+    ]);
 });
