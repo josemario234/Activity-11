@@ -15,7 +15,7 @@ Route::get('/', function () use ($menu) {
     ]);
 });
 
-Route::get('/reports', function () use ($menu) {
+Route::get('/contacts', function () use ($menu) {
     return view('contacts', [
         'menu' => $menu,
         'active' => 'Contacts',
